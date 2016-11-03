@@ -1,0 +1,37 @@
+body {
+  background-color: teal;
+  margin: 0;
+  font-size: 18px;
+}
+nav {
+  background-color: orange;
+  padding: 0 15px 0 10px;
+}
+nav li {
+  display: inline;
+}
+nav a {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background-color: red;
+  border-radius: 10px;
+  /*font-size: 300%;*/
+  color: orange;
+  text-decoration: none;
+  border: 1px solid darkred;
+  transition: all 1000ms;
+  background-image: linear-gradient(to right, purple, blue, magenta, yellow, red);
+}
+nav a:hover {
+
+  transform: rotate(360deg);
+}
+nav a::before {
+  content: ':';
+}
+nav a::after {
+  content: ':';
+}
