@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: hsla(0, 0%, 0%, .7);
+}
+div  {
+    width: 25%;
+    margin: 25px auto;
+    text-align: center;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 10px;
+}
+div div {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    padding: 0;
+    box-shadow: 0 0 0 10px lightgray;
+}
+img {
+    position: relative;
+    top: -20%;
+    width: 100%;
+    height: auto;
+
+}
+h1 {
+    font-family: Montserrat, sans-serif;
+    color: hsl(207.9, 40%, 41.2%);
+}
