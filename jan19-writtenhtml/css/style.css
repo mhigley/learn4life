@@ -1,0 +1,40 @@
+body {
+
+}
+img {
+
+}
+/*
+  text-shadow: x y color;
+  box-shadow: x y blur width color;
+*/
+div {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  text-align: center;
+  transition: box-shadow 250ms ease-out;
+}
+div:hover {
+  box-shadow: 0 15px 20px 5px hsla(0, 0%, 0%, .5);
+}
+.image-frame {
+  width: 300px;
+  height: 300px;
+  border: 5px solid red;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 0;
+  box-shadow: none;
+}
+.image-frame:hover {
+  box-shadow: none;
+}
+
+/*
+When you hover over the "container" div, animate a shadow effect to create depth.
+
+Add a button (anchor tag) and style it as button.
+*/
