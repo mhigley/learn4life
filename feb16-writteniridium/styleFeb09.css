@@ -1,0 +1,131 @@
+/*
+    Global Styles
+*/
+@import url('https://fonts.googleapis.com/css?family=Arimo:400,700');
+body {
+    margin: 0;
+    font-family: 'Arimo', sans-serif;
+    line-height: 1.5;
+    color: hsl(0, 0%, 30%);
+}
+h1, h2, h3 {
+    line-height: 1;
+}
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+p {
+    margin-top: 0;
+}
+a {
+    color: inherit;
+}
+a:hover {
+    text-decoration: none;
+}
+/*
+    Header Styles
+*/
+header {
+    background-image: url(img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+}
+h1 {
+    margin: 0;
+    font-size: 4em;
+}
+header p {
+    margin: 0;
+}
+nav {
+    padding: 10px;
+}
+nav ul {
+    padding: 10px;
+    margin: 50px 0 0 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+}
+nav a {
+    color: inherit;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+nav a:hover {
+    background-color: hsla(0, 0%, 100%, .1);
+    border-color: white;
+}
+
+
+/*
+    Main Article Styles
+*/
+h2, h3 {
+    text-transform: uppercase;
+}
+h2 {
+    margin: 0;
+    font-size: 2.5em;
+}
+h3 {
+    margin: 0 0 50px 0;
+    font-size: 1.25em;
+}
+h2 + p {
+    margin-bottom: 25px;
+    font-size: 1.2em;
+}
+section {
+    padding: 50px 12vw;
+    display: flex;
+}
+section article {
+    flex: 2;
+    margin-right: 50px;
+}
+section aside {
+    flex: 1;
+}
+article img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+aside li {
+    padding-bottom: 25px;
+}
+aside li:not(:first-child){
+    padding-top: 25px;
+}
+aside li:not(:last-child){
+    border-bottom: 1px solid hsl(0, 0%, 92%);
+}
+aside small {
+    width: 100%;
+    float: left;
+    margin-bottom: 25px;
+    color: hsl(0, 0%, 63%);
+    text-transform: uppercase;
+    font-size: 70%;
+}
+aside img {
+    float: left;
+    margin-right: 15px;
+}
+aside p {
+    padding-left: 85px;
+}

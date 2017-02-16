@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+header {
+    background-image: url(img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+}
+h1 {
+    margin: 0;
+    font-size: 4em;
+}
+p {
+    margin: 0;
+}
+nav {
+    padding: 10px;
+}
+ul {
+    padding: 10px;
+    margin: 50px 0 0 0;
+    list-style: none;
+}
+li {
+    display: inline-block;
+}
+header a,
+.cta-btn {
+    color: inherit;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+header a:hover {
+    background-color: hsla(0, 0%, 100%, .1);
+    border-color: white;
+}
+.cta-btn {
+    display: inline-block;
+    background-color: hsl(11, 80%, 57%);
+    color: white;
+}
+
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+h2 + p {
+    margin: 0;
+    font-size: 1.25em;
+}
+section {
+    padding: 50px 12%;
+    display: flex;
+}
+section:last-of-type {
+    background-color: hsl(0, 0%, 85%);
+}
+section article {
+    flex: 2;
+}
+section aside {
+    flex: 1;
+}
+article img {
+    width: 100%;
+    margin: 25px 0;
+}
+
+
+
+
+/*
+    css :not() operator
+*/
+
+aside li {
+    padding-bottom: 25px;
+}
+aside li:not(:last-child){
+    border-bottom: 1px solid black;
+}
+aside li:not(:first-child){
+    padding-top: 25px;
+}
+
+aside img {
+    float: left;
+    margin-right: 15px;
+}
+aside p {
+    padding-left: 85px;
+}
+
+section#detail ul {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+section#detail li {
+    width: 150px;
+}
+section#detail li:nth-child(2){
+    margin: 0 25px;
+}
+/*
+section ul li {
+    width: calc( (100% / 3) - 25px);
+    margin: 0 25px 0 0;
+    float: left;
+}
+*/
+section#detail li img {
+    width: 100%;
+}
+
+/*
+PEMDAS
+
+parenthesis
+exponents
+multiply
+divide
+add
+subtract
+*/
