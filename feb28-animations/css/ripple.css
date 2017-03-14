@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  overflow: hidden;
+  background: hsla(0, 0%, 0%, .25);
+  margin: 0;
+}
+main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+a.btn {
+  display: inline-block;
+  padding: 20px 45px;
+  font-size: 2em;
+  color: hsl(0, 0%, 90%);
+  background: hsl(100, 30%, 60%);
+  border: 1px solid hsl(100, 30%, 40%);
+  text-shadow: 1px 1px 0 hsl(100, 30%, 40%);
+  border-radius: 4px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+a.btn span {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  content: '';
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: hsl(200, 30%, 60%);
+  z-index: -1;
+  transform: scale(1);
+  transition: all 1s ease-out;
+}
+a.btn span.btn-anim {
+    transition: all 1s ease-out;
+    transform: scale(2);
+}
