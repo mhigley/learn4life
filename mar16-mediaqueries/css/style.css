@@ -16,7 +16,7 @@ div {
     padding: 100px 10%;
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 700px){
     body {
         background-color: magenta;
     }
